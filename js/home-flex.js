@@ -10,7 +10,6 @@ $(window).load(function() {
         directionNav: true,
         slideshowSpeed: 10000,
         startAt: 0,
-        slideshow: false,
         //controlsContainer: ".flex-container",
         start: function(slider) {
             slider.find('#flex-index').html(slider.currentSlide + 1);
